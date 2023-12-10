@@ -24,10 +24,13 @@ class Solution {
 
     public static void main(String[] args) {
         Solution instance = new Solution();
-        boolean result = false;
+        boolean result;
 
         result = instance.isValid("((");
         System.out.println("Result: " + result);
 
     }
+
 }
+
+
